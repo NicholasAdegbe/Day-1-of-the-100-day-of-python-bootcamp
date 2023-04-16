@@ -1,0 +1,23 @@
+#Variable names and the Print function
+name= input("What is your name?")
+print(name)
+name= "Jack"
+print(name)
+name= "Angela"
+print(name)
+name= input("what is your name?")
+print(len(name))
+#Switching variable and assignment
+a= input("a: ")
+b= input("b: ")
+c=a
+a=b
+b=c
+print("a " + a)
+print("b " + b)
+#The school email Generator
+print("welcome to the school email generator")
+a=input("What is your surname in small letters?\n ")
+b=input("What is your school name in small letters?\n ")
+print("Your school email could be " + a + "@" + b +".edu.gh" )
+ 
